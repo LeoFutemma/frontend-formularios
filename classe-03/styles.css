@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+
+.campo {
+  display: flex;
+  justify-content: start;
+  padding-bottom: 5px;
+}
+
+label {
+  padding-right: 5px;
+  text-align: end;
+}
+
+.musica {
+  display: none;
+  padding-left: 51px;
+}
+
+.musica-sugestao {
+  width: 300px;
+}
+
+.show {
+  display: block;
+}
+
+button {
+  margin-top: 10px;
+  align-self: center;
+}

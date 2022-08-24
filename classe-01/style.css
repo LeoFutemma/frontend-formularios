@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 50px;
+}
+
+h1,
+.email,
+.senha {
+  padding-bottom: 10px;
+}
+
+input {
+  padding: 5px;
+}

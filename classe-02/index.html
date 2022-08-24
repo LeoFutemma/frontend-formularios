@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../classe-02/style.css">
+  <script src="../classe-02/scripts.js" defer></script>
+  <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Cadastro</h1>
+
+    <form>
+      <div class="campo">
+        <label for="nome">Nome</label>
+        <input id="nome" type="text" placeholder="José Batatas" required>
+      </div>
+      <div class="campo">
+        <label for="email">E-mail</label>
+        <input id="email" type="email" placeholder="xxx@email.com" required>
+      </div>
+      <div class="campo">
+        <label for="celular">Celular</label>
+        <input id="celular" type="number" placeholder="(DDD) 91234-5678" required>
+      </div>
+      <div class="campo">
+        <label for="senha">Senha</label>
+        <input id="senha" type="password" placeholder="123456" minlength="6" required>
+      </div>
+      <div class="campo">
+        <label for="confirma-senha">Confirme a Senha</label>
+        <input id="confirma-senha" type="password" placeholder="123456" minlength="6" required>
+      </div>
+      <div class="campo estado">
+        <label for="estado">Estado</label>
+        <select id="estado">
+          <option value="acre">AC</option>
+          <option value="alagoas">AL</option>
+          <option value="amapa">AP</option>
+          <option value="amazona">AM</option>
+          <option value="bahia">BA</option>
+          <option value="ceara">CE</option>
+          <option value="distrito federal">DF</option>
+          <option value="espirito santo">ES</option>
+          <option value="goias">GO</option>
+          <option value="maranhao">MA</option>
+          <option value="mato grosso">MT</option>
+          <option value="mato grosso do sul">MS</option>
+          <option value="minas gerais">MG</option>
+          <option value="para">PA</option>
+          <option value="paraiba">PB</option>
+          <option value="parana">PR</option>
+          <option value="pernambuco">PE</option>
+          <option value="piaui">PI</option>
+          <option value="rio de janeiro">RJ</option>
+          <option value="rio grande do norte">RN</option>
+          <option value="rio grande do sul">RS</option>
+          <option value="rondonia">RO</option>
+          <option value="roraima">RR</option>
+          <option value="santa catrina">SC</option>
+          <option value="sao paulo">SP</option>
+          <option value="sergipe">SE</option>
+          <option value="tocantins">TO</option>
+        </select>
+      </div>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+
+</html>
